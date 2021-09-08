@@ -4,5 +4,8 @@ Stokbrood = 2
 StokbroodPrijs = 2.78
 Kortingsbon = 3
 KortingsbonPrijs = 0.50
+Bedrag = 10.69
 
-print(Croissant * CroissantPrijs + (Stokbrood * StokbroodPrijs) - (Kortingsbon * KortingsbonPrijs))
+Uitkomst = "De feestlunch kost je bij de bakker " + str(Bedrag) + " Euro " + "voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!"
+
+print(Uitkomst)
